@@ -1,6 +1,7 @@
 {
   "name": "surf-coffe",
   "version": "0.1.0",
+  "homepage": "https://ElenaPatcuk.github.io/coffee_shop",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
