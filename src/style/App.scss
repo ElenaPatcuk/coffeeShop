@@ -1,0 +1,194 @@
+$color-main: #E5E5E5;
+$color-navbar: #B2B2B2;
+$color-olive: #46504f;
+$color-sand: #C59C6E;
+$color-black: #000000;
+$color-beige: #CAC198;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    padding: 2vw 4vw;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    color: $color-navbar;
+
+    &__title{
+        font-size: 1.7vw;
+    }
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    &__child{
+
+        &_logo{
+            width: 100%; 
+            height: 10vw; 
+        }
+        
+    }
+}
+
+.poster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    height: 100vh;
+    background: no-repeat url('../img/main-1.jpg') center;
+    background-size: cover;
+    background-color: black;
+    color: $color-main;
+    text-align: center;
+    
+    &__title{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 5vw;
+        line-height: 0.9;
+    }
+
+    &__descr{
+        font-size: 1.1vw;
+        padding: 2vw 0;
+    }
+}
+
+.main-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        background-color: bisque;
+
+        &_img{
+            align-self: center;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        &_title{
+            padding: 0 5vw 5vw;
+            font-size: 2vw;
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    background-color: #000000;
+    padding: 6vw 5vw;
+
+    &__title{
+        flex-basis: 40%;
+        font-size: 2vw;
+        color: $color-main;
+    }
+
+    &__link{
+        display: flex;
+        font-size: 1.8vw;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+.coffee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    // &__title{
+        
+    // }
+
+    &__categories{
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+    }
+
+}
+
+.products{
+    display: flex;
+    width: 90%;
+    padding: 2vw 5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 48%;
+
+        &_gray{
+            display: flex;
+            justify-content: center;
+            height: 35vw;
+            background-color: $color-main;
+        }
+
+        &_img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        &_content{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 0 5vw;
+            font-size: 2vw;
+        }
+
+        &_title{
+            flex-basis: 70%;
+
+        }
+    }
+}
+
+
+
+h2{
+    font-size: 1.8vw;
+}
+
+a{
+    text-decoration: none;    
+    color: $color-navbar;
+}
+
+li{
+    font-size: 1.3vw;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+ul{
+    padding-left: 0;
+}
