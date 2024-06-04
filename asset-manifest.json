@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/coffee_shop/static/css/main.472bb54a.css",
+    "main.js": "/coffee_shop/static/js/main.c56ccedb.js",
+    "static/media/t-shirt.png": "/coffee_shop/static/media/t-shirt.18e0de2a3712007e27d2.png",
+    "static/media/vest.png": "/coffee_shop/static/media/vest.2b32ff3e2981ad546ab2.png",
+    "static/media/accessories.png": "/coffee_shop/static/media/accessories.05a446bba14fbcfce70c.png",
+    "static/media/matcha.png": "/coffee_shop/static/media/matcha.cdf2f5e936e4e0ece7de.png",
+    "static/media/bags.png": "/coffee_shop/static/media/bags.3819bc76b5909765614d.png",
+    "static/media/main-1.jpg": "/coffee_shop/static/media/main-1.de92c1aeab98d041ca52.jpg",
+    "static/media/cosmetics.png": "/coffee_shop/static/media/cosmetics.0169e320657e2af19a1f.png",
+    "static/media/drips.png": "/coffee_shop/static/media/drips.b2f225e2aeeb268bb2dc.png",
+    "static/media/film.png": "/coffee_shop/static/media/film.6d74bb718f33daefa268.png",
+    "static/media/corn.png": "/coffee_shop/static/media/corn.25b41636f31e920ffc93.png",
+    "static/media/capsules.png": "/coffee_shop/static/media/capsules.aea8f4f0f82eb8fc1625.png",
+    "static/media/wave.svg": "/coffee_shop/static/media/wave.d98039c861a85cda2a69f6372e70d9ec.svg",
+    "static/media/basket.svg": "/coffee_shop/static/media/basket.8cd49a0978ffb7f90b31.svg",
+    "static/media/corn.svg": "/coffee_shop/static/media/corn.8bd140a967744488e656.svg",
+    "static/media/cloth.svg": "/coffee_shop/static/media/cloth.feff2c0b5d69250a4464.svg",
+    "index.html": "/coffee_shop/index.html",
+    "static/media/other.svg": "/coffee_shop/static/media/other.6d3240847a14fe9336e8.svg",
+    "main.472bb54a.css.map": "/coffee_shop/static/css/main.472bb54a.css.map",
+    "main.c56ccedb.js.map": "/coffee_shop/static/js/main.c56ccedb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.472bb54a.css",
+    "static/js/main.c56ccedb.js"
+  ]
+}
